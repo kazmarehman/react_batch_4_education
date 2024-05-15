@@ -57,6 +57,9 @@
  .cards .rating .full_icon{
     color: #FFA135;
  }
+ .cards .rating .half_icon{
+    color: #FFA135;
+ }
  .cards .main_heading h2{
     font-family: jost;
     font-size: 20px;
@@ -74,14 +77,19 @@
     color: #FFA135;
  }
  .cards hr{
-    border_bottom: 1px dotted #ACACAC;
+    border-bottom: 1px dotted #ACACAC;
     margin: 8px 0px;
  }
-/*.cards .icons{
+.cards .icons{
     display: flex;
     gap: 10px;
 
-} */
+} 
+.icon_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .cards .icons span{
     font-family: jost;
     font-size: 12px;
@@ -92,4 +100,18 @@
     display: flex;
     align-items: center;
     gap: 5px;
+}
+.button{
+    background-color: #FFA135;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29.3px;
+    border-radius: 50px;
+    border: none;
+    padding: 5px 30px;
+    text-align: center;
+    margin: -100px 100px;
+    color: #FFFFFF;
+    outline: none;
 }

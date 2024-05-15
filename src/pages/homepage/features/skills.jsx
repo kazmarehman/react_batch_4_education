@@ -8,7 +8,9 @@ const Skills = () => {
       <div className="page_width">
         <div className="skills_container">
             <div className="item_grid">
-                <div className="img">
+                <div className="img"style={{
+                    height:"70px",width:"195px"
+                }}>
                     <img src={Icon} alt="" />
                 </div>
                 <div className="content">
@@ -17,7 +19,9 @@ const Skills = () => {
                 </div>
             </div>
             <div className="item_grid">
-                <div className="img">
+                <div className="img"style={{
+                    height:"70px",width:"195px"
+                }}>
                     <img src={Icon1} alt="" />
                 </div>
                 <div className="content">
@@ -26,7 +30,9 @@ const Skills = () => {
                 </div>
             </div>
             <div className="item_grid">
-                <div className="img">
+                <div className="img"style={{
+                    height:"70px",width:"195px"
+                }}>
                     <img src={Icon2} alt="" />
                 </div>
                 <div className="content">

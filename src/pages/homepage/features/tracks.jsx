@@ -20,6 +20,7 @@ const Tracks = () => {
             <div className="cards">
                 <div className="img">
                     <img src={CardImg} alt="" />
+                    </div>
                     <div className="rating">
                         <small>UI/UX Design</small>
                         <div className="stars">
@@ -45,19 +46,20 @@ const Tracks = () => {
                         <div className="icon_item">
                              <spam><PiDownloadSimple color='#000000' size={18}/>22hr 30min</spam>
                         </div>
-                        <div className="className">
-                            <button>Join Course</button>
-                         </div>
+                        
                     </div>
+
                 </div>
-                
+                <div className="className">
+                            <button className='button'>Join Course</button>
+                </div>
+
                  </div>
             </div>
           
            </div>
         </div>
       </div>
-    </div>
   )
 }
 
